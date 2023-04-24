@@ -15,10 +15,10 @@ export default function Home() {
     <LightMode>
       <div className={styles.container}>
         <Head>
-          <title>Awesome Goal tracker</title>
+          <title>Reminder App</title>
           <meta
             name="description"
-            content="Manage Your Todo-list,meetings,notes and more..."
+            content="Manage Your Reminders and view your progress"
           />
           <link rel="icon" href="/favicon.ico" />
         </Head>
