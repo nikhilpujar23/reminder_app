@@ -1,11 +1,7 @@
 import { Box, Text, Button, Image, LightMode } from "@chakra-ui/react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-// import Image from "next/image";
 import Link from "next/link";
-import { CgNotes } from "react-icons/cg";
-import { SiGooglemeet } from "react-icons/si";
-import { MdOutlineNoteAlt } from "react-icons/md";
 import { auth } from "../firebase-config";
 import { useAuthState } from "react-firebase-hooks/auth";
 
